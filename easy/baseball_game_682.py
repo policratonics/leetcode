@@ -1,3 +1,4 @@
+from math import prod
 from typing import List
 
 
@@ -15,6 +16,7 @@ class Solution:
             elif i == "+":
                 record = stack[-1] + stack[-2]
                 stack.append(record)
+                prod()
 
         return sum(stack)
 
